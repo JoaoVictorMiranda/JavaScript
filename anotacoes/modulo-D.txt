@@ -1,0 +1,44 @@
+MODULO D: Condiçoes em JavaScript
+* 11- Condiçoes if e outras coisas.
+Basicamente condição simples ou com else no final eu eu verei essa aula novamente mais tarde quando eu for ver o curso no site para garantir. mas vou fazer o exercicio primeiro.
+
+Condiçoes simples 
+if(){
+
+}
+Condiçoes Compostas
+if(){
+
+}else{
+
+}
+condiçoes aninhadas
+if(){
+
+}else {
+        if(){
+
+        }else{
+
+        }
+}
+
+condiçoes multiplas
+switch(){     // DETALHE IMPORTANTE APÓS TODO CASE COLOCAR UM break PARA NÂO CAUSAR NENHUM PROBLEMA SEJA DE MEMORIA OU OUTRAS COISAS.
+    case  :
+    break
+    case  :
+
+
+}
+
+*
+*
+*
+*
+
+O resto das aulas usei para EXERCICIOS e fazer os exercicios propostos nas aulas então não teve muita anotação os exercicios estão na pasta desafios.
+
+
+
+-----------------------------------------------------------------------------------------------------

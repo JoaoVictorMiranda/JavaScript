@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de JS</title>
+    <style>
+      body {
+        background-color: #cdcdcd;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BOM DIA,</h1>
+    <p>teste do paragrafo nesse novo formato</p>
+    <script>
+      var n1 = Number(window.prompt("digite um numero")); //Pegando um numero e deixando ele em variavel de number
+      var n2 = Number(window.prompt("digite outro numero")); // Pegando outrao numero e tambem armazenando no number
+      var sum = n1 + n2;
+
+      //Para usar da forma mais amigavel usar a CRASE e os sinais de ${} para armazenar as variaveis e ultilizar
+      // em prompts ou alerts para ficar mais visivel e não poluido como a concatenação com strings e variaveis
+      //TemplateString o nome disso
+      window.alert(`A soma dos ${n1} e do ${n2} da ${sum}`);
+    </script>
+  </body>
+</html>

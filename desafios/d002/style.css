@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(175, 218, 255);
+  font: normal 13pt "JetBrains Mono";
+  text-align: justify;
+}
+
+header {
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-size: 20pt;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  width: 600px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.512);
+}
+
+section img {
+  display: block;
+  align-items: center;
+  padding: 20px;
+}
+
+section input#button,
+input#button:focus {
+  font-size: 17px;
+  padding: 10px 25px;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+  border: 2px solid rgb(50, 50, 50);
+  border-bottom: 5px solid rgb(50, 50, 50);
+  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+  transform: translate(0, -3px);
+  cursor: pointer;
+  transition: 0.2s;
+  transition-timing-function: linear;
+  display: block;
+  margin: 15px auto;
+}
+
+section input#button:active {
+  transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 15pt;
+}

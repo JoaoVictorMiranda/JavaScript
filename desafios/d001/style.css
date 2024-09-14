@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(175, 218, 255);
+  font: normal 13pt "JetBrains Mono";
+  text-align: justify;
+}
+
+header {
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-size: 20pt;
+}
+
+section {
+  background-color: rgb(255, 228, 196);
+  width: 600px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.512);
+}
+
+footer {
+  text-align: center;
+  font-size: 15pt;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+div#horario h1 {
+  text-align: center;
+}
+
+div#foto {
+  display: flex;
+  justify-content: center;
+}

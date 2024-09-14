@@ -1,0 +1,8 @@
+MODULO F: Avançando os Estudos em JavaScript
+*
+*
+*
+*
+*
+-----------------------------------------------------------------------------------------------------
+Consideraçoes finais sobre o curso e como continuar os estudos no JavaScript e Node.js

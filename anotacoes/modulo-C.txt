@@ -1,0 +1,35 @@
+MODULO C: Entendendo o DOM
+* 9- O que é o DOM (Document Object Model)
+Dom é basicamente uma arvode de parentesco onde se tem pais e filhos sendo assim
+
+                Window
+            /      |    \
+      location Document History
+                   |
+                  HTML
+                 /   \
+            head       body
+        / |              |
+    meta  title          |
+                    /  |  \    
+                 div   p    p
+
+E a arvore vai indo cressendo quanto mais coisas via adicionando no site
+E para ultilizar e até mesmo alterar valores no site usamos o DOM
+Com comendos como  
+window.document.getElementByTagName('')   (Por marca)
+window.document.getElementById('')  (Por ID)
+window.document.getElementsByName('')[] Quando se tem varios elementos use [] para escolher qual elemento vc quer (Por NOME)
+window.document.getElementsByClass('')[] (Por CLASS)
+window.document.querySelector('') (Nova maneira pelo SELETOR)
+
+Dei uma saida depois de um tempo eu volto pois realmente ta muito dificil esntender vou relaxar pra ficar mais facil de esntender
+VOLTEI E FINALMENTE ENTENDI COMO FUNCIONA O DOM DE VERDADE
+
+
+*10  Recaptulando algumas coisas do episodio 10 
+E criando alguns exercicios para fixar alguns conhecimentos do DOM
+
+
+
+-----------------------------------------------------------------------------------------------------

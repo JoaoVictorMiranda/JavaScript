@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brincando com alerts</title>
+    <style>
+      body {
+        background-color: #cdcdcd;
+        font-size: 2rem;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bom dia</h1>
+    <script>
+      var nome = prompt("Digite seu nome: ");
+      var i = 1;
+      var n1 = Number(window.prompt("digite seu numero"));
+      //Brincadeirinha pra escrever o nome varias e varias vezes na tela
+      for (i; i <= n1; i++) {
+        document.write(i, ".  ", nome, "<br />");
+      }
+    </script>
+  </body>
+</html>

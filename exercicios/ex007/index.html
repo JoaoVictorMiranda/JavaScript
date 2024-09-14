@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Condicionais</title>
+  </head>
+
+  <body>
+    <div>
+      <h1>De qual pais vc é??</h1>
+      <input type="text" name="txtpapis" id="txtpais" />
+      <input type="button" value="button" id="button" onclick="calculo()" />
+
+      <div id="res">
+        <p>geral</p>
+      </div>
+
+      <script>
+        document
+          .getElementById("txtpais")
+          .addEventListener("keydown", function (event) {
+            // Verifica se a tecla pressionada é "Enter"
+            if (event.key === "Enter") {
+              calculo(); // Chama a função de pesquisa quando "Enter" for pressionado
+            }
+          });
+
+        function calculo() {
+          let res = window.document.querySelector("div#res");
+          let pais = window.document.querySelector("input#txtpais").value;
+          let paisGeral = pais.toLowerCase();
+          console.log(`Pais gerado ${pais}`);
+
+          if (paisGeral == "brasil") {
+            res.innerHTML = `<p>Você é do Brasil então é <strong>Brasileiro </strong></p>`;
+          } else {
+            res.innerHTML = `<p>Você não é do Brasil então é <strong>estrangeiro</strong> </p> `;
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>

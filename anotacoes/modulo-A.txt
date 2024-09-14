@@ -1,0 +1,31 @@
+Anotações basicas sobre as aulas de JAVASCRIPT do curso em video 
+
+Modulo a modulo aula por aula as anotaçoes estarão em ordem para não serem perdidas em nenhum local.
+
+MODULO A: Conheçenco o JavaScript
+* 1- Uma tecnologia Client side porem também pode ser usado no server porem será aprendido no curso apenas o client side
+HTML-CSS-JavaScript a triade para criação de sites, uma não funciona sem a outra.
+O javascript faz as interações entre itens dentro de um site sendo ir de um lugar ao outro ou simplesmente alterar alguma função com base em algum botão que o usuario apertou, ampliar uma imagem com base no mouse do cliente e escureçer o fundo.
+JavaScript é de fato uma linguagem de programação diferente do HTML e CSS q são linguagens de marcação e de estilização.
+O youtube é realmente completamente totalmente necessitado de JavaScript e o google é funcional sem javascript porem fica tudo antigo como se fosse em outra decada por isso o javascript é realmente muito necessario para todos os sites da internet pois
+eles são baseados na triade dos sites (HTML-CSS-JavaScript)
+
+* 2- Nós te amamos gustavo guanabara-->
+Java não é o JavaScript e são completamente diferentes e foi somente uma jogada de marketing. 
+Google Chrome usa o motor V8 como base para rodar o Javascript então uma empresa pegou o V8 q é de codigo aberto e fez o q hoje conheçemos como NODE.js q é basicamente um motor de javascript rodando fora do navegador assim fazendo uso de outras formas e não somente no navegador como no google chrome
+
+Evolução do ECMAScript versão padronizada do Javascript, a mais atual versão do ECMAScript é a ES2024 mas o curso vai se basear mais na versão do ES6 para maior versatilidade
+
+Tecnologias q ultilizam o JavaScript: Jquery, Angular, React, Vue, electron, Ionic, NODEjs, cordova... e varias outras.
+Porem não adianta nada aprender elas sem saber o proprio JavaScript pois todas elas partem de q vc sabe o proprio JavaScript.
+
+* 3- Primeiros passos no JavaScript... Nós amamos vc Gustavo Guanabara.
+Tirando algumas duvidas e avisando q para aprender basta somente querer e focar para o aprendizado.
+E instalando recursos como google Chrome Vscode e NODEjs o unico q precisei instalar foi NODEjs
+
+* 4- Seu primeiro Script.. 
+primeiro codigo em JavaScript alert('Olá Mundo'); <-- não é mais necessario ultilizar o ponto e virgula no final dos codigos em javascript porem quem quiser pode ultilizar para manter o costume.
+O comando alert é window.alert('Escreva sua mensagem aqui'); porem o window pode ser omitido e ser colocado apenas o alert
+window.confirm('Esta gostando?');
+e window.prompt('Qual seria seu nome?');
+-----------------------------------------------------------------------------------------------------

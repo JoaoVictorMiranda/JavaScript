@@ -1,0 +1,96 @@
+MODULO B: Comandos basicos do JavaScript
+* 5- Aprendendo comandos novos no JS E armazenamento de dados e variaveis 
+E aprendendo como fazer comentarios no JS usando o // ou o /**/ para fazer comentario em linha ou em varias linhas.
+
+variaveis: ultilizar um unico igual = é atribuição q a variavel esta recebendo o valor q esta vindo após o sinal. 
+var n1 =('chevrollet.');
+var n2 =11
+
+Aprendendo a usar o node no terminal do proprio VScode e fora também 
+A variavel pode ultilizar varios tipos de dados ou Data Types sendo eles:
+number
+string
+boolean
+Essas sendo as principais usadas mas tendo varias outras sendo subcategorias dessas ou de outras sendo elas
+number -> infinity
+          NaN
+string
+boolean
+null
+undefined
+object (O proprio JS é uma linguagem focada em objetos)
+    -> Array
+function
+Todos esses sendo tipos primitivos.
+
+* 6- Prosseguimento na manipulação de dados no JavaScript
+Aprendendo a guardar dados em variaveis e a usar eles no HTML 
+Concatenar == juntar arrays ou strings com numbers ou variaveis ou outros tipos de datas
+Para forçar uma variavel a armazenar uma string ou um number usamos o comando:
+number.parseInt(n) para inteiros
+number.parseFloat(n) para numeros reais
+O .parseInt ou Float pode ser omitido caso não importe se vai ser inteiro ou real assim deixa com o JS o trabalho de decidir e fazer aconversão para o q mais conveem.
+
+
+E para forçar a ser string pode se usar da mesma forma o comando:
+string(n)
+Ou da forma
+n.toString() 
+
+Outras formas de usar as variaveis com srting usando por exemplo
+var s ="text"
+s.toUpperCase Que transforma todas as letras em maiusculas
+s.length q diz quantos caracteres aquela string vai ter ou que ela tem 
+s.toLowerCase q transforma todas as litras em minusculas
+
+Um cogido avançado porem importante de se anotar é pra transformar numeros em formato de real.
+var n1 =1560.60
+n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL' })
+Isso faz o number da string virar formato da moeda real Brasil
+
+
+
+* 7- Aula 7 sobre OPERADORES 
+Tipos de OPERADORES: aritimeticos, atribuição, relacionais, lógicos, ternarios.
+aritimeticos: + - * / % ** Tipos de operadores BINARIOS q precisa de dois operandos.
++-* Os normais e simples contas 
+/Divisão inteira q o resultado sai com virgula
+
+ O simbolo de % porcentagem é ultilizado para resolver o resto da divisão inteira o q sobra da divisão real ou seja em 5%2 não da numero com virgula apenas aparece o resto q seria o numero 1.
+
+Ja o ** é potencia 
+Ordem de PRECEDENCIA DE OPERADORES:
+1 ()
+2 **
+3 * / %
+4 + -
+
+
+* 8- 2° parte de OPERADORES continuando para falar de operadores: Relacionais Logicos e Ternarios..
+< Maior que                 ! Sinal de negação 
+> Menor Que                 && Sinal de E se um e outro são verdadeiros
+>= Menor ou igual           || Sinal de OU se um ou outro é verdadeiro
+<=Maior ou igual
+== Igual a se possuem o mesmo valor
+=== Sinal de identidade para verificar se são identicos
+!= Diferente de
+
+Ordem de precedencia total
+1 () ** % * / + -    (aritimeticos)
+2 >< >= <= == !=     (relacionais)
+3 !                  (Logicos)
+4 &&                 (Logicos)
+5 ||                 (Logicos)
+
+OPERADORES TERNARIOS   
+
+? :
+Exemplo:
+[teste] ? [true] : [false]
+
+x = 7
+7 >= 5 ? SIM : NÃO
+
+ACABOU O MODULO B achei meio chatinho porem NECESSARIO consegui aprender bastante porem eram coisas q eu ja conhecia porem sempre é bom aprender cada vez mais e saber mais mesmo q eu ja tenha visto essas coisas anteriormente.... 
+
+-----------------------------------------------------------------------------------------------------

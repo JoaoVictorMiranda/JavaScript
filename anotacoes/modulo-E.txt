@@ -1,0 +1,21 @@
+MODULO E: Repetiçoes em JavaScript
+* 13- Estruturas de repetição 
+ sendo elas a while(){  
+
+ } OU
+ do{
+
+ }while()
+Basicamente as mesmas coisas porem com propositos diferentes tem o resultado parecido porem na pratica são diferentes em casos diferentes..sendo a while a verificação vem primeiro e a do while a verificação vem depois de executar o bloco 
+
+A que eu gosto mais é a estrutura do for
+for(var c = 1 ; c <= 5 ; c++ ){
+        //Bloco de codigo
+}
+
+
+*
+*
+*
+*
+-----------------------------------------------------------------------------------------------------
