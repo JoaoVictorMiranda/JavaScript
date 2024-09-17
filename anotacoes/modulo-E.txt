@@ -14,7 +14,7 @@ for(var c = 1 ; c <= 5 ; c++ ){
 }
 
 
-*
+* O resto foi exercicios que podem ser encontrados na area desafios.
 *
 *
 *

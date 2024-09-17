@@ -3,7 +3,7 @@ function contar() {
   let num1 = Number(document.querySelector("input#num1").value);
   let num2 = Number(document.querySelector("input#num2").value);
   let passo = Number(document.querySelector("input#passo").value);
-  
+
   // Variável 'res' para armazenar a div onde o resultado será exibido
   let res = document.querySelector("div#res");
 
@@ -29,7 +29,7 @@ function contar() {
         // Adiciona cada número da contagem crescente ao conteúdo da div
         res.innerHTML += ` ${c} \u{1f449} `; // '\u{1f449}' é um emoji de dedo apontando
       }
-    // Se 'num1' for maior que 'num2', faz uma contagem decrescente
+      // Se 'num1' for maior que 'num2', faz uma contagem decrescente
     } else if (num1 > num2) {
       for (let c = num1; c >= num2; c -= p) {
         // Adiciona cada número da contagem decrescente ao conteúdo da div

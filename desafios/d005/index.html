@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Desafio 005</title>
+  </head>
+  <body>
+    <header>
+      <h1>Exercicio</h1>
+    </header>
+    <section>
+      <div id="input">
+        <p>
+          digite um numero:(Entre 1 e 100)
+          <input type="number" name="num" id="num" />
+          <input
+            type="button"
+            value="adicionar"
+            class="botao"
+            onclick="adicionar()"
+          />
+        </p>
+
+        <select name="sel" id="sel" size="11"></select>
+        <input
+          type="button"
+          value="finalizar"
+          class="botao"
+          onclick="finalizar()"
+        />
+      </div>
+      <input type="button" value="clear" class="botao" onclick="limpar()" />
+      <div id="res"></div>
+    </section>
+    <footer>
+      <p>&copy; Gustavo guanabara</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,6 +1,49 @@
 MODULO F: Avançando os Estudos em JavaScript
-*
-*
+* 15-  Vetores e arrays
+variaveis compostas
+
+let vagas = [8,5,7,9] 
+Os indices dos vetores sempre iniciam em 0.
+
+para adicionar coisas podem ser ultilizado o vagas.push(7)
+Ou da forma manual fazendo vagas[4] = 7
+porme a primeira forma é mais facil pois não é necessario saber quantos indices tem apenas empurramos o numero para a ultima posição independente de quantos indices
+
+Um vetor é uma variavel que tem varios elementos cada elemento é composto por seu valor e por uma chave de indentificação.
+
+Para mostrar um valor somente do vetor da pra fazer da forma
+console.log(num[0]) E dentro das chaves ultilizar o indice que precisar
+porem para mostrar todos separados pode se usar um loop
+
+for (let po=0;pos<vagas;pos++) {
+  console.log(`O valor é ${num[c]}`);
+}
+Para passar de um em um mostrando separadamente porem tem uma nova forma de mostrar que foi introduzido no JavaScript Mais recentemente que facilita a ultilização deste recurso que é usando o loop dessa forma:
+
+let c = 0;
+for (c in num) {
+  console.log(`O valor é ${num[c]}`);
+}
+Sendo o in para marcar cada posição dentro do vetor mas sempre lembtando de declarar a variavel de contador antes de rodar para que não de nada errado.
+
+indexOf() é um recurso ultilizado Para ver em qual indice o valor esta.
+Então sendo vagas.indexOf(8); Sai bascicamente o index dele q é o indice 0
+
+Porem Quando estamos tentando mostrar algum valor q não existe por exemplo
+vagas.indexOf(40);
+Como não temos o valor 40 ele ao inves de mostrar que não existe ele demostra o valor -1 para mostrar que não existe este valor em nenhum indice
+
+
+* 16- FUNÇÕES 
+Funçoes são ações executadas assim que são cahmadas ou em decorrencia de algum evento.
+O ex16 esta cheio de exemplos de tipos de funções porem como o assunto é grande demais irei me aprofundar mais em outro momento.
+Proximas aulas serão exercicios Então provavelmente não escreverei mais muito aqui somente farei eles em desafios...
+
+Resolvido o desafio porem criei outro documento para criar a solução da aula pois as resoluçoes foram diferentes e quero comparar no final como vai ficar as duas e aprender no que errai e coisas assim mas como a minha deu certo não acho q vai precisar de muito mais coisas alem do que ja fiz
+
+
+
+
 *
 *
 *
