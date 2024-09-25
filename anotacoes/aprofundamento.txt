@@ -1,0 +1,37 @@
+Aqui vou me aprofundar mais e mais dentro do proprio javascript usando o site https://roadmap.sh/javascript
+Para poder ir de bloco em bloco para aprender as coisas aos poucos e ir anotando aqui.
+
+PS>> Varias coisas vão estar anotadas em ingles pois o conteudo inteiro do site e videos que irei ver são em ingles então provavelmente vai ter pouca coisa em portugues ou vai estar misturada mas vou vendo como vai ficar
+
+
+1-dia Scope
+var let const
+
+Global scope: Estão disponiveis em todo o codigo então pode acabar causando erros ou coisas do tipo então dentro de uma funcão pode se usar um Global Scope de dentro da funcão.
+
+Local scope: Estão dentro de uma função ou bloco podendo estar em um block dentro de outra função 
+
+Relembrando Bloco == {} Abrir e fechar chaves isso é um bloco
+
+
+var = NÃO USAR.... pois o var acaba ignorando os blocos e funçoes o que pode acabar dando erro entre varios outros problemas.
+
+let e const respeitam o local scope e não ignoram os blocos 
+
+Use const o maximo possivel se preceber que não é necessario mudar o valor da variavel.
+E caso necessario trocar o valor use let..
+
+
+em caso de aninhamento de blocos ou funções eles podem buscar variaveis em seus elementos pais.
+Exemplo:
+const a = 0
+const b = 1
+
+function myFunc(){
+    console.log(a) => Procura dentro da propria função as variaveis para mostrar mas como não possui ele pega do elemento pai que é o global para poder mostrar o valor das variaveiss.
+    console.log(b)
+    {
+        console.log(a)  => Busca a variavel a dentro da função e como não tem procura no global e pega o valor dela para mostrar
+        console.log(b) mesma coisa
+    }
+}
