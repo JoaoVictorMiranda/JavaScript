@@ -3,6 +3,7 @@ Para poder ir de bloco em bloco para aprender as coisas aos poucos e ir anotando
 
 PS>> Varias coisas vão estar anotadas em ingles pois o conteudo inteiro do site e videos que irei ver são em ingles então provavelmente vai ter pouca coisa em portugues ou vai estar misturada mas vou vendo como vai ficar
 
+TIPOS DE DADOS
 
 1-dia Scope
 var let const
@@ -35,3 +36,51 @@ function myFunc(){
         console.log(b) mesma coisa
     }
 }
+
+    O JavaScript tem um limite para números inteiros, conhecido como Number.MAX_SAFE_INTEGER, que é 253−1253−1 (ou 9.007.199.254.740.991). Quando é necessário trabalhar com números inteiros maiores do que esse limite, usamos BigInt.
+
+    O BigInt permite a manipulação de números inteiros de tamanho arbitrário, ou seja, você pode trabalhar com números muito grandes sem perder precisão. Para criar um BigInt, você pode adicionar um sufixo n ao número, por exemplo, 1234567890123456789012345678901234567890n.
+
+    Os BigInts podem ser usados em operações matemáticas, como soma, subtração, multiplicação e divisão, assim como os números normais, mas é importante lembrar que BigInt e Number são tipos diferentes, e não devem ser misturados em operações sem conversão explícita.
+
+    "O JavaScript tem um limite para representar números inteiros com precisão, que é de aproximadamente 253−1253−1. Para trabalhar com números maiores que esse limite, utilizamos o BigInt, que permite a representação de inteiros de tamanho arbitrário. Para declarar um BigInt, adicionamos um n ao final do número, como em 12345678901234567890n. É importante notar que não podemos misturar BigInt e Number em cálculos aritméticos diretamente, e devemos fazer a conversão entre os tipos quando necessário."
+
+
+    NUMBERS = 
+    lutuante de precisão dupla, conforme o padrão IEEE 754, o que permite a representação de uma ampla gama de números, mas também pode levar a imprecisões em operações com decimais. Para facilitar o uso, o construtor Number oferece métodos e constantes que ajudam na manipulação e conversão de valores de diferentes tipos para números, permitindo que desenvolvedores trabalhem de maneira mais eficiente com dados numéricos.
+
+    Uma das características interessantes do tipo Number é a sua capacidade de suportar várias representações numéricas, como notações hexadecimal (por exemplo, 0xff para 255), binária (como 0b11111111) e exponencial (por exemplo, 0.255e3 que é igual a 255). Todas essas representações são tratadas como equivalentes em JavaScript, demonstrando a flexibilidade do tipo Number. Essa versatilidade é fundamental para a realização de operações matemáticas, manipulação de dados e implementação de algoritmos que envolvem cálculos numéricos em aplicações web.
+
+
+    Usar null:
+
+    Indica que a variável foi intencionalmente deixada sem valor.
+    É útil quando você quer sinalizar que a variável deve ser preenchida mais tarde, mas ainda não possui um valor definido.
+    Exemplo:
+
+    javascript
+
+    let user = null; // O usuário ainda não foi definido
+
+    Usar uma string vazia (""):
+
+    Indica que a variável é uma string, mas não contém nenhum caractere.
+    É apropriado quando você espera que a variável armazene uma string, mas não tem conteúdo no momento.
+    Exemplo:
+
+    javascript
+
+        let username = ""; // O nome de usuário está vazio
+
+        Resumo
+
+    Use null quando a variável deve indicar a ausência de um valor ou objeto.
+    Use uma string vazia quando a variável é uma string que não contém dados.
+
+
+
+    BOOLEAN ==  true ou false.
+    O resumo está quase correto, mas pode ser aprimorado para maior clareza. Veja uma versão revisada:
+    BOOLEAN
+
+    Boolean é um tipo de dado em JavaScript que pode assumir apenas dois valores: true (verdadeiro) ou false (falso). Variáveis booleanas são frequentemente utilizadas em estruturas de controle, como if e else, para determinar o fluxo de execução do código. Quando uma condição é avaliada como verdadeira (true), o código dentro do bloco if é executado; caso contrário, se a condição for falsa (false), o código dentro do bloco else é executado, permitindo que o programa tome decisões baseadas em condições.
